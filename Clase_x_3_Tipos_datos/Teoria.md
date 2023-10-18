@@ -1,5 +1,6 @@
 # C++
 Es un lenguaje tipado y se deben crear antes de usarlas
+Pero es sensible al tipo de procesador y tipo de máquina. Aunque es mucho más rápido que otros lenguajes
 
 # Tipos de datos
 1. **Caracteres**
@@ -30,3 +31,20 @@ Espacio en la memoria del compu donde se almacenara un valor que puede cambiar
 
 RAM= Random Access Memory (memoria volatil)
 
+**Reglas declaración variables**
+
+1. Primer caracter debe ser una letra o guion bajo
+2. No se permiten espacios en blanco
+3. Tratar de no crear nombres con muchos caracteres
+4. Evitar caracteres especiales $
+5. No usar palabras reservadas (include, cout, new, etc)
+6. No se puede declarar variables 2 veces con el mismo nombre en el mismo ámbito
+7. C++ es Case Sensitive (David no es igual a david, DaViD etc)
+
+**Formas de inicializacion**
+```cpp
+int z; // sin inicializar
+int z=5; // inicializacion tipica
+int z(5);  // inicializacion de constructor
+int z {5}; // inicializacion de lista
+```
