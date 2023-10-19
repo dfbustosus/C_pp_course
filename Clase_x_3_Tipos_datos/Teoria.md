@@ -48,3 +48,15 @@ int z=5; // inicializacion tipica
 int z(5);  // inicializacion de constructor
 int z {5}; // inicializacion de lista
 ```
+
+# Constantes
+- Similar a las variables pero no varian su valor durante la ejecución del programa
+- Las constantes en C++ tienen tipo (lenguaje fuertemente tipado)
+- Las constantes se declaran e inicializan al mismo tiempo (OJO!)
+
+# Tipos de constantes
+- Constantes literales (\n ,\t, \b )
+- Constantes declaradas (const int david = 1;)
+- Expresiones constantes: palabras reservadas (precedidas de constexpr)
+- Constantes enumeradas: palabra reservada enum
+- Constantes definidad: #define valor= 10; (ya no se usa)
