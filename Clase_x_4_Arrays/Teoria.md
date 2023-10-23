@@ -41,6 +41,23 @@ Aqui el lenguaje identifica el numero de elementos por default
 
 **Nota:** Importante recordar que el indice empieza en 0 para C++
 
+# Arrays 2D
+Hay varias formas de hacerlo:
+
+```cpp
+int mi_arrray[2][3]{1,2,3,4,5,6};
+```
+
+```cpp
+int mi_array[2][3]={
+                        {1,3,4},
+                        {5,6,7}
+                    };
+```
+
+
+
+
 
 
 
