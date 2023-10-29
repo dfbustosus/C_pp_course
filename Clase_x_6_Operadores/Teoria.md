@@ -43,3 +43,43 @@
 5. Si uno de los operandos es de tipo "long" el otro operando se convierte a "long" y el resultado será "long"
 6. Si uno de los operandos es de tipo "int" el otro operando se convierte a "int" y el resultado será "int"
 
+# Comparacion
+| Simbolo | Descripcion     |
+|--------|-----------------|
+| >      | Mayor que           |
+| <     | Menor que      |
+| >=     | Mayor igual que      |
+| <=     | Menor o igual que   |
+| ==     | Igual que   |
+| !=     | Diferente de   |
+
+# Condicional IF
+
+Notaciones:
+
+```cpp
+if (condicion1== true){
+    accion1
+}else{
+    accion2
+}
+```
+```cpp
+if (condicion1== true){
+    accion1
+}else if {
+    accion2
+} else {
+    accion3
+}
+```
+
+## Logicos
+
+| Simbolo | Descripcion     |
+|--------|-----------------|
+| !      | Negación           |
+| &&     | Y lógico      |
+| ||     | O lógico      |
+
+- `&&` : Y ademas
