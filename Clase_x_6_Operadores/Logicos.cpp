@@ -38,14 +38,27 @@ int main(){
     Minusculas(examen_medico); // Convertir a minus
 
     if (edad >=18 && examen_medico=="si"){
-        cout << "Puedes obtener el certificado";
+        cout << "Puedes obtener el certificado"<< endl;
     }else{
-        cout << "No cumples con los requisitos";
+        cout << "No cumples con los requisitos"<< endl;
+    }    
+
+    // Ejemplo 3
+    string pregrado;
+    cout << "Estudiaste posgrado (Si/No): ";
+    cin >> pregrado;
+    Minusculas(pregrado);
+    double promedio;
+    cout << "Cual fue tu promedio en la universidad (de 0.0 a 5.0): ";
+    cin >> promedio;
+
+    // Condicion de ocntratacion
+    if (pregrado == "si" || promedio>4.0){
+        cout << "Genial eres elegible para el empleo";
+    }else {
+        cout << "Lo sentimos no eres elegible para el empleo";
     }
 
-
-
-    
     
     return 0;
 }
