@@ -23,3 +23,6 @@ int main(){
     cout << "Fila 2, Columna 1:" << mi_array_3[1][0] << endl;
 
 }
+
+// g++ Ejemplo2.cpp -o Ejemplo2.exe
+// .\Ejemplo2

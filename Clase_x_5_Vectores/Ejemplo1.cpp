@@ -26,3 +26,6 @@ int main(){
         m++;
     }
 }
+
+// g++ Ejemplo1.cpp -o Ejemplo1.exe
+// .\Ejemplo1

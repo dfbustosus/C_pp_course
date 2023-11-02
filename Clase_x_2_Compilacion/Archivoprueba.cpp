@@ -9,3 +9,5 @@ int main(){
 }
 
 // Iniciar Depuracion > ejecutar > Start Debbuging >> Elegir C/C++ ()
+// g++ Archivoprueba.cpp -o Archivoprueba.exe
+// .\Archivoprueba

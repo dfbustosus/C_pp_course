@@ -7,3 +7,6 @@ int main(){
 }
 
 // Iniciar Depuracion > ejecutar > Start Debbuging >> Elegir C/C++ ()
+// TERMINAL EXECUTION
+//g++ HolaMundo.cpp -o HolaMundo.exe
+// .\HolaMundo

@@ -16,3 +16,6 @@ int main(){
         cout<< "No puedes comprar la clase";
     }
 }
+
+// g++ Comparacion.cpp -o Comparacion.exe
+// .\Comparacion

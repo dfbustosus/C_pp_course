@@ -11,3 +11,5 @@ int main(){
 }
 
 // Iniciar Depuracion > ejecutar > Start Debbuging >> Elegir C/C++ ()
+// g++ Ejemplo.cpp -o Ejemplo.exe 
+// .\Ejemplo

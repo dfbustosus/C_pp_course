@@ -26,29 +26,8 @@ int main(){
 
     // Metodo pushback (agrega elementos al final)
     valores_3.push_back(5);
-    //cout << valores_3[4];
-
-    for (int i; i< valores_3.size(); i++){
-        cout << "Valor " << i+1 << " es: "<< valores_3[i]<< endl;
-    }
-
-    // ejemplo preguntarle a un usuario elementos que quiere en un vector y que lo vaya rellenando
-    cout << "---------------------"<< endl;
-    int longitud;
-    cout << "Introduce la cantidad de elementos a usar:  ";
-    cin >> longitud; // Guardar el value
-    
-    vector <int> valor_dinamico(longitud);
-
-    for (int j; j < longitud; j++){
-        cout << "Valor en posicion "<< j+1 << ": ";
-        cin >> valor_dinamico.at(j);
-    }
-    cout << "--------------------------------"<< endl;
-    for (int i; i< valor_dinamico.size(); i++){
-        cout << "Valor " << i+1 << " es: "<< valor_dinamico[i]<< endl;
-    }
-
-
-
+    cout << valores_3[4];
 }
+
+// g++ Ejemplo2.cpp -o Ejemplo2.exe
+// .\Ejemplo2

@@ -24,3 +24,6 @@ int main(){
     return 0;
 
 }
+
+// g++ Ejemplo_notas.cpp -o Ejemplo_notas.exe
+// .\Ejemplo_notas

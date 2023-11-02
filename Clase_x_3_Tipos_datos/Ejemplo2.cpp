@@ -16,3 +16,5 @@ int main(){
     const int valor=2;
     cout << "Valor: " << valor;
 }
+// g++ Ejemplo2.cpp -o Ejemplo2.exe
+// .\Ejemplo2

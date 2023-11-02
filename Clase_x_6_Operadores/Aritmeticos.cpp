@@ -1,4 +1,5 @@
 #include <iostream>
+#include <typeinfo>
 using namespace std;
 
 int main(){
@@ -42,3 +43,6 @@ int main(){
 
 
 }
+
+// g++ Aritmeticos.cpp -o Aritmeticos.exe
+// .\Aritmeticos

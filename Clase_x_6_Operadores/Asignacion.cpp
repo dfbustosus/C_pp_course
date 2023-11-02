@@ -12,3 +12,6 @@ int main(){
         cout << "Tu edad hace 5 años fue: " << edad << endl;
     }
 }
+
+// g++ Asignacion.cpp -o Asignacion.exe
+// .\Asignacion

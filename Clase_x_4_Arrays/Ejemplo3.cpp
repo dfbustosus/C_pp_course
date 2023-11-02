@@ -25,3 +25,6 @@ int main(){
     // OJO!! Undefined behavior: C++ no contempla que te vas a equivocar en la indexacion (Error)
 
 }
+
+// g++ Ejemplo3.cpp -o Ejemplo3.exe
+// .\Ejemplo3

@@ -62,3 +62,6 @@ int main(){
     
     return 0;
 }
+
+// g++ Logicos.cpp -o Logicos.exe
+// .\Logicos
