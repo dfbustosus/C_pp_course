@@ -16,3 +16,11 @@ while (condicion){
 }
 ```
 
+Otra alternativa es el `for-each` que se usa para recorrer array, vectores o contenedores (list,set, map, vector, etc). Se ntrodujo desde la version 11 
+
+```cpp
+for (int n: valores){
+    cout << n << endl;
+}
+```
+
