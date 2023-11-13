@@ -24,3 +24,12 @@ for (int n: valores){
 }
 ```
 
+`Do-while` es otra opcion que se tiene cuando se necesita realizar una operación un número indeterminado de veces y la condición de parada depende de algún calculo o entrada del usuario que ocurre dentro del bucle. Además se necesita que el cuerpo del bucle se ejecute al menos una vez
+
+```cpp
+do{
+    accion
+} while{
+    condicion
+}
+```
