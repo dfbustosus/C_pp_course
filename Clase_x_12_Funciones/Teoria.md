@@ -39,3 +39,15 @@ Entonces como le dices al compilador que vamos a usar una función?
 - Especifican al compilador que funciones se van a utilizar en el programa así como sus parametros y tipos y si la función devoolverá valor o no
 - Se colocan al comienzo del programa (No es estrictamente necesario pero si conveniente)
 - Admiten la posibilidad de crearlas en archivos externos (extensiones `.h` o `.hpp`) algo importante para la `modularización`
+
+## Parametros por valor y referencia
+
+Se pasa por valor cuando
+1. Quieres hacer operaciones matematicas sin afectar el valor original
+2. Funciones que necesitan asegurarse que el valor original no se afecte
+
+Se para por referencia cuando
+1. Modificar los valores de las variables que se le pasan, e.g resetear una variable
+2. Para evitar copias que ocnsuman mucho recurso
+3. Cuando debes devolver multiples valores modificados
+4. Polimorfismo (muchas formas) 
